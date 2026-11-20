@@ -1,0 +1,19 @@
+--Java & Maven artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+--Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+--Logs
+*.log
+logs/
+
